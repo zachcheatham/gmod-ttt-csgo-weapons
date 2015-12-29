@@ -627,3 +627,47 @@ sound.Add({
 	volume = 		1.0,
 	sound = 			"weapons/tfa_csgo/mp7/mp7_draw.wav"
 })
+
+--GALIL
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.1",
+	channel = 		CHAN_USER_BASE+10,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil-1.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.Clipout",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil_clipout.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.Clipin",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil_clipin.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.BoltBack",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil_boltback.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.BoltForward",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil_boltforward.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_GALIL.Draw",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/galil/galil_draw.wav"
+})
