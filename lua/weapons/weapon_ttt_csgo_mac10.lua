@@ -9,7 +9,7 @@ if CLIENT then
    SWEP.Icon                = "vgui/ttt/icon_mac"
 end
 
-SWEP.Base                   = "weapon_tttbase"
+SWEP.Base                   = "weapon_ttt_csgo_base"
 SWEP.Spawnable              = true
 
 SWEP.Kind                   = WEAPON_HEAVY
@@ -37,7 +37,19 @@ SWEP.Primary.Sound          = Sound("TFA_CSGO_MAC10.1")
 SWEP.IronSightsPos          = Vector(-6.14, -12.061, 2.18)
 SWEP.IronSightsAng          = Vector(-0.348, 0.14, -0.968)
 
-SWEP.DeploySpeed = 3
+SWEP.Offset = {
+    Pos = {
+        Up = -3.5,
+        Right = 0.8,
+        Forward = 4,
+    },
+    Ang = {
+        Up = 3,
+        Right = 90,
+        Forward = 178
+    },
+    Scale = 1
+}
 
 function SWEP:GetHeadshotMultiplier(victim, dmginfo)
     local att = dmginfo:GetAttacker()

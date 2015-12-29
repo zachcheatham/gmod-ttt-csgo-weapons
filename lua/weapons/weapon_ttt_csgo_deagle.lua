@@ -12,7 +12,7 @@ if CLIENT then
    SWEP.Icon                = "vgui/ttt/icon_deagle"
 end
 
-SWEP.Base                   = "weapon_tttbase"
+SWEP.Base                   = "weapon_ttt_csgo_base"
 
 SWEP.Spawnable              = true
 SWEP.Kind                   = WEAPON_PISTOL
@@ -41,3 +41,17 @@ SWEP.WorldModel             = "models/weapons/tfa_csgo/w_deagle.mdl"
 
 SWEP.IronSightsPos          = Vector(-3.76, -5.628, 0.38)
 SWEP.IronSightsAng          = Vector(0.68, 0.30, 0)
+
+SWEP.Offset = {
+    Pos = {
+        Up = -3.5,
+        Right = 0.8,
+        Forward = 6,
+    },
+    Ang = {
+        Up = 3,
+        Right = 90,
+        Forward = 178
+    },
+    Scale = 1
+}

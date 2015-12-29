@@ -14,7 +14,7 @@ if CLIENT then
     SWEP.Icon               = "vgui/ttt/icon_scout"
 end
 
-SWEP.Base                   = "weapon_tttbase"
+SWEP.Base                   = "weapon_ttt_csgo_base"
 SWEP.Spawnable              = true
 SWEP.Kind                   = WEAPON_EQUIP
 SWEP.CanBuy                 = {ROLE_TRAITOR}
@@ -43,11 +43,24 @@ SWEP.ViewModel              = "models/weapons/tfa_csgo/c_scout.mdl"
 SWEP.WorldModel             = "models/weapons/tfa_csgo/w_scout.mdl"
 
 SWEP.Primary.Sound          = Sound("weapons/usp/usp1.wav")
-
 SWEP.Secondary.Sound        = Sound("Default.Zoom")
 
 SWEP.IronSightsPos          = Vector(5, -15, -2)
 SWEP.IronSightsAng          = Vector(2.6, 1.37, 3.5)
+
+SWEP.Offset = {
+    Pos = {
+        Up = 0.7,
+        Right = 0.5,
+        Forward = 1.0,
+    },
+    Ang = {
+        Up = 0,
+        Right = -9,
+        Forward = 180,
+    },
+    Scale = 1.2
+}
 
 function SWEP:SetZoom(state)
     if CLIENT then

@@ -14,7 +14,7 @@ if CLIENT then
 	}
 end
 
-SWEP.Base					= "weapon_tttbase"
+SWEP.Base					= "weapon_ttt_csgo_base"
 SWEP.Spawnable 				= true
 SWEP.Kind 					= WEAPON_EQUIP
 SWEP.CanBuy 				= {ROLE_TRAITOR}
@@ -45,6 +45,20 @@ SWEP.Primary.Sound			= Sound("TFA_CSGO_M4A1.1")
 
 SWEP.IronSightsPos			= Vector(-5.258, -5.628, 0.279)
 SWEP.IronSightsAng			= Vector(1.235, -0.091, -1.407)
+
+SWEP.Offset = {
+    Pos = {
+        Up = -2,
+        Right = 0.8,
+        Forward = 6
+    },
+    Ang = {
+        Up = 1,
+        Right = 90,
+        Forward = 178
+    },
+    Scale = 1
+}
 
 function SWEP:SetZoom(state)
 	if CLIENT then return end

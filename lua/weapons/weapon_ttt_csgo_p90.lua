@@ -9,7 +9,7 @@ if CLIENT then
 	SWEP.Icon				= "vgui/ttt/icon_csgo_p90"
 end
 	
-SWEP.Base					= "weapon_tttbase"
+SWEP.Base					= "weapon_ttt_csgo_base"
 SWEP.Spawnable				= true
 
 SWEP.Kind					= WEAPON_HEAVY
@@ -38,6 +38,20 @@ SWEP.IronSightsPos 			= Vector(-5.16, -13.065, -0.32)
 SWEP.IronSightsAng 			= Vector(-0.201, 0.173, 0.703)
 
 SWEP.DeploySpeed = 3
+
+SWEP.Offset = {
+	Pos = {
+		Up = -3.5,
+		Right = 1.5,
+		Forward = 3,
+	},
+	Ang = {
+		Up = 3,
+		Right = 70,
+		Forward = 178
+	},
+	Scale = 1.3
+}
 
 function SWEP:GetHeadshotMultiplier(victim, dmginfo)
 	local att = dmginfo:GetAttacker()

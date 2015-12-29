@@ -9,9 +9,7 @@ if CLIENT then
 	 SWEP.Icon				= "vgui/ttt/icon_m16"
 end
 
-SWEP.Base				 	= "weapon_tttbase"
-SWEP.Spawnable				= true
-
+SWEP.Base				 	= "weapon_ttt_csgo_base"
 SWEP.Kind					= WEAPON_HEAVY
 
 SWEP.Primary.Delay			= 0.19
@@ -36,6 +34,20 @@ SWEP.Primary.Sound			= Sound("TFA_CSGO_M4A4.1")
 
 SWEP.IronSightsPos			= Vector(-5.1725, -9.648, 0.855)
 SWEP.IronSightsAng			= Vector(-0.25, -0.2, -2.112)
+
+SWEP.Offset = {
+	Pos = {
+		Up = -3.5,
+		Right = 0.8,
+		Forward = 6,
+    },
+	Ang = {
+		Up = 3,
+		Right = 90,
+		Forward = 178
+    },
+	Scale = 1
+}
 
 function SWEP:SetZoom(state)
 	 if CLIENT then return end

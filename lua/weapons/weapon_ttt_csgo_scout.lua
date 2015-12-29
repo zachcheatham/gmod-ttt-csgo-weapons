@@ -8,7 +8,7 @@ if CLIENT then
 	SWEP.Icon				= "vgui/ttt/icon_scout"
 end
 
-SWEP.Base					= "weapon_tttbase"
+SWEP.Base					= "weapon_ttt_csgo_scout"
 SWEP.Spawnable				= true
 
 SWEP.Kind					= WEAPON_HEAVY
@@ -40,6 +40,20 @@ SWEP.Secondary.Sound	 	= Sound("Default.Zoom")
 
 SWEP.IronSightsPos			= Vector(5, -15, -2)
 SWEP.IronSightsAng			= Vector(2.6, 1.37, 3.5)
+
+SWEP.Offset = {
+    Pos = {
+    	Up = 0.7,
+    	Right = 0.5,
+    	Forward = 1.0,
+    },
+    Ang = {
+    	Up = 0,
+    	Right = -9,
+   		Forward = 180,
+    },
+	Scale = 1.2
+}
 
 function SWEP:SetZoom(state)
 	if CLIENT then
