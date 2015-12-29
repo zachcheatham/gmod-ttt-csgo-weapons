@@ -1,0 +1,4 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/tfa_csgo/shared/shell_shotgun"
+}
