@@ -49,16 +49,6 @@ SWEP.Offset = {
 	Scale = 1
 }
 
-function SWEP:SetZoom(state)
-	 if CLIENT then return end
-	 if not (IsValid(self.Owner) and self.Owner:IsPlayer()) then return end
-	 if state then
-			self.Owner:SetFOV(35, 0.3)
-	 else
-			self.Owner:SetFOV(0, 0.2)
-	 end
-end
-
 -- Add some zoom to ironsights for this gun
 function SWEP:SecondaryAttack()
 	 if not self.IronSightsPos then return end
