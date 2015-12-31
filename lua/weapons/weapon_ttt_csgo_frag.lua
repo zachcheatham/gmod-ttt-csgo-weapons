@@ -1,9 +1,3 @@
-
-if SERVER then
-   AddCSLuaFile( "shared.lua" )
-   
-end
-
 SWEP.HoldType			= "grenade"
 
 if CLIENT then

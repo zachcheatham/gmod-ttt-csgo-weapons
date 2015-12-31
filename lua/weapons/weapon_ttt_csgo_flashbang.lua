@@ -1,7 +1,3 @@
-if (SERVER) then --the init.lua stuff goes in here
-   AddCSLuaFile ("shared.lua")
-end
-
 SWEP.HoldType			= "grenade"
 
 if (CLIENT) then --the init.lua stuff goes in here
