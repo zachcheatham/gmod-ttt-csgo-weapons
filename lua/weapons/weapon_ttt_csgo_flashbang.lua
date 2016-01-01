@@ -56,14 +56,14 @@ end
 
 SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
         Pos = {
-        Up = -2,
-        Right = 1,
-        Forward = 3,
+            Up = -2,
+            Right = 1,
+            Forward = 3,
         },
         Ang = {
-        Up = -1,
-        Right = -2,
-        Forward = 178
+            Up = -1,
+            Right = -2,
+            Forward = 178
         },
 		Scale = 1
 }

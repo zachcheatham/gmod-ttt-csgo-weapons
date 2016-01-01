@@ -34,14 +34,14 @@ end
 
 SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
         Pos = {
-        Up = 0,
-        Right = 1,
-        Forward = 3,
+            Up = 0,
+            Right = 1,
+            Forward = 3,
         },
         Ang = {
-        Up = -1,
-        Right = -2,
-        Forward = 178
+            Up = -1,
+            Right = -2,
+            Forward = 178
         },
 		Scale = 1
 }
@@ -51,7 +51,7 @@ SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
 --------------------------
 
 function SWEP:DrawWorldModel()
-    if CLIENT and !game.SinglePlayer() then
+    /*if CLIENT and !game.SinglePlayer() then
         local hand, offset, rotate
 
         local ply = self:GetOwner()
@@ -73,7 +73,7 @@ function SWEP:DrawWorldModel()
             self:SetRenderAngles()
             self:SetModelScale(1, 0)
         end
-    end
+    end*/
 
     self:DrawModel()
 end
