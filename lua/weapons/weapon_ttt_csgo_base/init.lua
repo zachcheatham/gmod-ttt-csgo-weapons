@@ -5,8 +5,13 @@ include("shared.lua")
 function SWEP:Equip()
     self.BaseClass.BaseClass.Equip(self)
 
-    if not self.csgoSkin then
-        self:SetCSGOSkin("models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_asiimov")
+    if not self.csgoSkin then -- Only skin weapons that haven't been skinned yet
+        if self:GetOwner().csgoSkins then
+            local skin = self:GetOwner().csgoSkins[self:GetClass()] -- Check if player has a skin for this weapon
+            if skin then
+                self:SetCSGOSkin(skin)
+            end
+        end
     end
 end
 
