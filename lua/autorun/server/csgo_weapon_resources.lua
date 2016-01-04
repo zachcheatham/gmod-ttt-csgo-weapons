@@ -13,3 +13,4 @@ end
 addContentFolder("models/weapons/tfa_csgo")
 addContentFolder("sound/weapons/tfa_csgo")
 addContentFolder("materials/models/tfa_csgo")
+addContentFolder("materials/models/weapons/v_models/arby26/mp5")
