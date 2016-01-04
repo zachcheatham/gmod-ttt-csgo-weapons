@@ -6,7 +6,7 @@ if CLIENT then
     SWEP.PrintName            = "AK-47"
     SWEP.Slot                = 6
 
-    SWEP.Icon                 = "vgui/ttt/icon_ak47"
+    SWEP.Icon                 = "vgui/ttt/icon_csgo_ak47"
 
     SWEP.EquipMenuData = {
         type                 = "Weapon",
