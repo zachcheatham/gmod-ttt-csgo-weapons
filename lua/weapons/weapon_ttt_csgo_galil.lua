@@ -6,7 +6,7 @@ if CLIENT then
 	 SWEP.PrintName		 	= "Galil"
 	 SWEP.Slot				= 2
 
-	 SWEP.Icon				= ""
+    SWEP.Icon				= "vgui/ttt/icon_csgo_galil"
 end
 
 SWEP.Base				 	= "weapon_ttt_csgo_base"
@@ -36,15 +36,15 @@ SWEP.IronSightsPos			= Vector(-5.1725, -9.648, 0.855)
 SWEP.IronSightsAng			= Vector(-0.25, -0.2, -2.112)
 
 SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
-        Pos = {
+    Pos = {
         Up = -3.5,
         Right = 0.8,
         Forward = 6,
-        },
-        Ang = {
+    },
+    Ang = {
         Up = 3,
         Right = 84,
         Forward = 178
-        },
-		Scale = 1
+    },
+    Scale = 1
 }
