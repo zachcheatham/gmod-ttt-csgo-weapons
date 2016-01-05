@@ -28,7 +28,7 @@ SWEP.AmmoEnt				= "item_ammo_smg1_ttt"
 
 SWEP.UseHands			  	= true
 SWEP.ViewModelFlip			= false
-SWEP.ViewModelFOV		 	= 57
+SWEP.ViewModelFOV		 	= 59
 SWEP.ViewModel			 	= "models/weapons/tfa_csgo/c_mp5.mdl"
 SWEP.WorldModel				= "models/weapons/tfa_csgo/w_mp5.mdl"
 
