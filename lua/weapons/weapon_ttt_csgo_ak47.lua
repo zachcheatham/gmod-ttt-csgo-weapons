@@ -37,7 +37,7 @@ SWEP.HeadshotMultiplier     = 2
 
 SWEP.UseHands                = true
 SWEP.ViewModelFlip            = false
-SWEP.ViewModelFOV            = 56
+SWEP.ViewModelFOV            = 64
 SWEP.ViewModel                = "models/weapons/tfa_csgo/c_ak47.mdl"
 SWEP.WorldModel                = "models/weapons/tfa_csgo/w_ak47.mdl"
 

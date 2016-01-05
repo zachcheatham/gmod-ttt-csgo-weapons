@@ -26,7 +26,7 @@ SWEP.AmmoEnt				= "item_ammo_pistol_ttt"
 
 SWEP.UseHands				= true
 SWEP.ViewModelFlip			= false
-SWEP.ViewModelFOV		 	= 56
+SWEP.ViewModelFOV		 	= 64
 SWEP.ViewModel				= "models/weapons/tfa_csgo/c_galil.mdl"
 SWEP.WorldModel			 	= "models/weapons/tfa_csgo/w_galil.mdl"
 
