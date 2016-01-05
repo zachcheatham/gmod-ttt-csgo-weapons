@@ -44,8 +44,8 @@ SWEP.ViewModelFOV           = 56
 SWEP.ViewModel              = "models/weapons/tfa_csgo/c_usp.mdl"
 SWEP.WorldModel             = "models/weapons/tfa_csgo/w_usp.mdl"
 
-SWEP.IronSightsPos          = Vector(-2.84, -7.84, 1.48)
-SWEP.IronSightsAng          = Vector(-0.571, 0.008, 0)
+SWEP.IronSightsPos = Vector( -5.91, -4, 2.84 )
+SWEP.IronSightsAng = Vector(-0.5, 0, 0)
 
 SWEP.PrimaryAnim            = ACT_VM_PRIMARYATTACK_SILENCED
 SWEP.ReloadAnim             = ACT_VM_RELOAD_SILENCED

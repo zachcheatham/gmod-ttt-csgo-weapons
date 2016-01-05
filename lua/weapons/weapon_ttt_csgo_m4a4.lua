@@ -32,8 +32,8 @@ SWEP.WorldModel			 	= "models/weapons/tfa_csgo/w_m4a4.mdl"
 
 SWEP.Primary.Sound			= Sound("TFA_CSGO_M4A4.1")
 
-SWEP.IronSightsPos			= Vector(-5.1725, -9.648, 0.855)
-SWEP.IronSightsAng			= Vector(-0.25, -0.2, -2.112)
+SWEP.IronSightsPos = Vector(-7.58, -9.2, 0.55)
+SWEP.IronSightsAng = Vector(2.599, -1.3, -3.6)
 
 SWEP.Offset = {
 	Pos = {

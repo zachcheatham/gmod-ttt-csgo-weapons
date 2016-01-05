@@ -34,8 +34,8 @@ SWEP.WorldModel                 = "models/weapons/tfa_csgo/w_nova.mdl"
 SWEP.Primary.Sound              = Sound("TFA_CSGO_NOVA.1")
 SWEP.Primary.Recoil             = 7
 
-SWEP.IronSightsPos              = Vector(-6.14, -12.061, 2.18)
-SWEP.IronSightsAng              = Vector(-0.348, 0.14, -0.968)
+SWEP.IronSightsPos = Vector(-6.881, -9.214, 2.66)
+SWEP.IronSightsAng = Vector(-0.101, -0.7, -0.201)
 
 SWEP.Offset = {
     Pos = {

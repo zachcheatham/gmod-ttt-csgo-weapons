@@ -39,8 +39,8 @@ SWEP.ViewModelFOV           = 56
 SWEP.ViewModel              = "models/weapons/tfa_csgo/c_deagle.mdl"
 SWEP.WorldModel             = "models/weapons/tfa_csgo/w_deagle.mdl"
 
-SWEP.IronSightsPos          = Vector(-3.76, -5.628, 0.38)
-SWEP.IronSightsAng          = Vector(0.68, 0.30, 0)
+SWEP.IronSightsPos = Vector(-6.361, -3.701, 2.15)
+SWEP.IronSightsAng = Vector(0, 0, 0)
 
 SWEP.Offset = {
     Pos = {

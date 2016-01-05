@@ -28,14 +28,14 @@ SWEP.AmmoEnt				= "item_ammo_smg1_ttt"
 
 SWEP.UseHands			  	= true
 SWEP.ViewModelFlip			= false
-SWEP.ViewModelFOV		 	= 57
+SWEP.ViewModelFOV		 	= 59
 SWEP.ViewModel			 	= "models/weapons/tfa_csgo/c_mp5.mdl"
 SWEP.WorldModel				= "models/weapons/tfa_csgo/w_mp5.mdl"
 
 SWEP.Primary.Sound			= Sound("TFA_CSGO_MP5.1")
 
-SWEP.IronSightsPos 			= Vector(-5.16, -13.065, -0.32)
-SWEP.IronSightsAng 			= Vector(-0.201, 0.173, 0.703)
+SWEP.IronSightsPos = Vector(-8.735, -10, 4.039)
+SWEP.IronSightsAng = Vector(-1.201, -0.201, -2)
 
 SWEP.DeploySpeed = 3
 
