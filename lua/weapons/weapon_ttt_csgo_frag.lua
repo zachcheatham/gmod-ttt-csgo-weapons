@@ -24,6 +24,8 @@ SWEP.ViewModelFOV           = 54
 SWEP.ViewModel              = "models/weapons/tfa_csgo/c_frag.mdl"
 SWEP.WorldModel             = "models/weapons/tfa_csgo/w_frag.mdl"
 
+SWEP.detonate_timer = 2
+
 SWEP.Offset = {
     Pos = {
         Up = -0.7,
