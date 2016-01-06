@@ -9,7 +9,7 @@ if CLIENT then
         desc                = "A highly explosive grenade."
     };
 
-    SWEP.Icon               = "VGUI/ttt/icon_nades"
+    SWEP.Icon               = "VGUI/ttt/icon_csgo_frag"
 end
 
 SWEP.Base                   = "weapon_ttt_csgo_base_grenade"

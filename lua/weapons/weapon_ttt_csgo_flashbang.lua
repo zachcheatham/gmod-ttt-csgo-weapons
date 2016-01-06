@@ -9,7 +9,7 @@ if CLIENT then
         desc                = "This grenade's detonation blinds nearby victims."
     };
 
-    SWEP.Icon               = "VGUI/ttt/icon_nades"
+    SWEP.Icon               = "VGUI/ttt/icon_csgo_flash"
 end
 
 SWEP.Base                   = "weapon_ttt_csgo_base_grenade"
