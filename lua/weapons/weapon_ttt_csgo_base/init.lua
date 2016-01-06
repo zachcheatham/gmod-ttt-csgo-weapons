@@ -2,8 +2,8 @@ AddCSLuaFile("shared.lua")
 
 include("shared.lua")
 
-function SWEP:Equip()
-    self.BaseClass.BaseClass.Equip(self)
+function SWEP:Equip(newOwner)
+    self.BaseClass.BaseClass.Equip(self, newOwner)
 
     if not self.csgoSkin then -- Only skin weapons that haven't been skinned yet
         if self:GetOwner().csgoSkins then
