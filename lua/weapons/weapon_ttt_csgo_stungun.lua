@@ -41,7 +41,7 @@ SWEP.ViewModelFOV			= 56
 SWEP.ViewModel				= "models/weapons/tfa_csgo/c_ump45.mdl"
 SWEP.WorldModel				= "models/weapons/tfa_csgo/w_ump45.mdl"
 
-SWEP.Primary.Sound			= Sound("m9k_hk_ump45.Single")
+SWEP.Primary.Sound			= Sound("TFA_CSGO_UMP45.1")
 
 SWEP.IronSightsPos = Vector(-5.11, -12.664, 1.08)
 SWEP.IronSightsAng = Vector(1.4, 0, 0)
