@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_deagle/deagle_blaze"
+	$bumpmap "null-bumpmap"
+	
+	$color2 "[6 6 6]" //This makes the Blaze look so much better with minimal image quality reduction. Used by the Glock-18 Fade as well!
+	$blendtintbybasealpha "1"
+	$blendTintColorOverBase  "0"
+	
+	"$phong" "1"
+	"$phongboost" "0.35"
+	"$phongalbedoboost" "40"
+	"$phongfresnelranges" "[.8 .8 1]"
+//	"$phongexponent" 12
+	"$phongexponenttexture" "models/tfa_csgo/cringecity_reskinpack_deagle/deagle_blazeexponent"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.025 .025 .025]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}
