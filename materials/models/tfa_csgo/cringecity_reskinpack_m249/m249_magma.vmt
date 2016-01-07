@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_m249/m249_magma"
+	$bumpmap "null-bumpmap"
+	$phongexponenttexture "models/tfa_csgo/cringecity_reskinpack_m249/m249_magmaexponent"
+	
+	"$phong" "1"
+	"$phongboost" "0.5"
+	"$phongexponent" "30"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.005 .005 .005]"	
+}
