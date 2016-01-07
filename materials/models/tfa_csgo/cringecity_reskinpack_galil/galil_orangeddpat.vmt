@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_galil/galil_orangeddpat"
+	$bumpmap "models/tfa_csgo/cringecity_reskinpack_galil/galil_orangeddpat_n"
+	$phongexponenttexture "models/tfa_csgo/cringecity_reskinpack_galil/galil_orangeddpat"
+	
+	$color2 "[2 2 2]"
+	$blendtintbybasealpha "1"
+	$blendTintColorOverBase  "0"
+	
+	"$phong" "1"
+	"$phongboost" "0.2"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.025 .025 .025]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+	
+	Proxies
+	{
+		"PlayerWeaponColorStatic"
+		{
+			resultVar	$color2
+		}
+	}
+}
