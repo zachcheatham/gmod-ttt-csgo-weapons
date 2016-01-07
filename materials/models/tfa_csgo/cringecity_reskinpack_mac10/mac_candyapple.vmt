@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_mac10/mac_candyapple"
+	$bumpmap "null-bumpmap"
+
+	//"$color2" "[3 3 3]"
+	//$blendtintbybasealpha "1"
+	//$blendTintColorOverBase  "0"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+	"$phongexponenttexture" "models/tfa_csgo/cringecity_reskinpack_mac10/mac_candyapple_exponent"
+	"$phong" "1"
+	"$phongboost" "4"
+	//"$phongexponent" "16"
+	"$phongalbedoboost" "16"
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$phongcolortint" "[.1 .1 .1]"
+	
+	 
+	"$basemapalphaphongmask" "1"
+
+	
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[.01 .01 .01]"
+}
+
+
+//Hey there! Please read disclaimer.lua in lua/ before doing anything involving my addons. Thanks!
+//...seriously, it helps with using these skins on your own server, what is allowed and not allowed, etc.

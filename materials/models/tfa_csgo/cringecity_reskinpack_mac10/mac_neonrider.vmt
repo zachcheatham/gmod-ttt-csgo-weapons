@@ -1,0 +1,37 @@
+VertexLitGeneric
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_mac10/mac_neonrider"
+	$bumpmap "null-bumpmap"
+
+	//"$color2" "[6 6 6]"
+	//$blendtintbybasealpha "1"
+	//$blendTintColorOverBase  "0"
+	
+	"$phongalbedotint" "16"
+	"$phongdisablehalflambert" "1"
+
+	"$phongexponenttexture" "models/tfa_csgo/cringecity_reskinpack_mac10/mac_neonrider_exponent"
+	"$phong" "1"
+	"$phongboost" "1.2"
+	//"$phongexponent" "16"
+	"$phongalbedoboost" "16"
+	"$phongfresnelranges" "[1 1 1]"
+
+	//"$phongtint" "[1 1 1]"
+	//$rimlight               1
+	//$rimlightexponent       2
+	//$rimlightboost          5
+	 
+	"$basemapalphaphongmask" "1"
+
+	
+	"$envmap" "env_cubemap"
+ 
+	"$envmapfresnel" "1"
+	
+	"$envmaptint" 		"[.01 .01 .01]"
+}
+
+
+//Hey there! Please read disclaimer.lua in lua/ before doing anything involving my addons. Thanks!
+//...seriously, it'll answer a majority of your questions, ESPECIALLY if you wanna use this on a server.
