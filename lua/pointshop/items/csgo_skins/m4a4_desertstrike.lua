@@ -1,4 +1,4 @@
-ITEM.Name = "M4A4 | Desert Storm"
+ITEM.Name = "M4A4 | Desert-Strike"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a4.mdl"
 ITEM.Except = true
@@ -7,7 +7,7 @@ ITEM.DelayedEquip = false
 ITEM.SubCategory = "M4A4"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_m4a4"
-ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_m4a4_desertstrike"
+ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_desertstrike"
 
 function ITEM:OnEquip(ply, modifications)
     if not ply.csgoSkins then
