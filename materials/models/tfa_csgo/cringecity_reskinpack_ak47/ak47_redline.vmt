@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/tfa_csgo/cringecity_reskinpack_ak47/ak47_redline"
+	$bumpmap "null-bumpmap"
+	
+	$color2 "[1 1 1]"
+	$blendtintbybasealpha "1"
+	$blendTintColorOverBase  "0"
+	
+	"$phong" "1"
+	"$phongboost" "0.125"
+	"$phongalbedoboost" "35"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models/tfa_csgo/ak47/ak47_exponent"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.001 .001 .001]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+	
+	Proxies
+	{
+		"PlayerWeaponColorStatic"
+		{
+			resultVar	$color2
+		}
+	}
+}
