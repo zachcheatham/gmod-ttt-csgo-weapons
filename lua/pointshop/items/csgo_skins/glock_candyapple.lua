@@ -4,7 +4,7 @@ ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
 
-ITEM.SubCategory = "glock18"
+ITEM.SubCategory = "Glock 18"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_glock18"
 ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_glock/glock_candyapple"

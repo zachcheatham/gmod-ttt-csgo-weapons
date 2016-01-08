@@ -4,7 +4,7 @@ ITEM.Model = "models/weapons/tfa_csgo/w_m4a1.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
 
-ITEM.SubCategory = "m4a1"
+ITEM.SubCategory = "M4A1-S"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_m4a1"
 ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_m4a1/m4a1_hotrod"
