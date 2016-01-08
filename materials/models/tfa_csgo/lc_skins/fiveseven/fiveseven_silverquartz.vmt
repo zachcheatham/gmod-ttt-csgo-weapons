@@ -1,6 +1,6 @@
 VertexLitGeneric
 {
-	$basetexture  "models\tfa_csgo\lc_skins\fiveseven\fiveseven_silverquartz"
+	$basetexture  "models/tfa_csgo/lc_skins/fiveseven/fiveseven_silverquartz"
 	$bumpmap  "null-bumpmap"
 
 	$phong  "1"
@@ -8,7 +8,7 @@ VertexLitGeneric
 	$phongalbedoboost  "20"
 	$phongfresnelranges  "[.83 .83 1]"
 
-	$phongexponenttexture  "models\tfa_csgo\lc_skins\fiveseven\fiveseven_silverquartzexponent"
+	$phongexponenttexture  "models/tfa_csgo/lc_skins/fiveseven/fiveseven_silverquartzexponent"
 
 	$basemapalphaphongmask  "1"
 	
