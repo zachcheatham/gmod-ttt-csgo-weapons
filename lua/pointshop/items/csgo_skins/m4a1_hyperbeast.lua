@@ -7,7 +7,7 @@ ITEM.DelayedEquip = false
 ITEM.SubCategory = "M4A1-S"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_m4a1"
-ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_m4a1/m4a1_hyperbeast"
+ITEM.CSGOSkin = "models/tfa_csgo/lc_skins/m4a1/m4a1_hyperbeast"
 
 function ITEM:OnEquip(ply, modifications)
     if not ply.csgoSkins then
