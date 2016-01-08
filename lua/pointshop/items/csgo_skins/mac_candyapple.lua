@@ -1,10 +1,10 @@
-ITEM.Name = "Mac10| Candy Apple"
+ITEM.Name = "MAC-10 | Candy Apple"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_mac10.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
 
-ITEM.SubCategory = "mac10"
+ITEM.SubCategory = "MAC-10"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_mac10"
 ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_mac10/mac_candyapple"

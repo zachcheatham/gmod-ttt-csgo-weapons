@@ -1,10 +1,10 @@
-ITEM.Name = "AK47| Cartel"
+ITEM.Name = "AK47 | Cartel"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_ak47.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
 
-ITEM.SubCategory = "ak47"
+ITEM.SubCategory = "AK-47"
 
 ITEM.WeaponEntity = "weapon_ttt_csgo_ak47"
 ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_ak47/ak47_cartel"

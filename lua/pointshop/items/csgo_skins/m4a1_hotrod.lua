@@ -1,4 +1,4 @@
-ITEM.Name = "M4A1| Hot Rod"
+ITEM.Name = "M4A1 | Hot Rod"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a1.mdl"
 ITEM.Except = true

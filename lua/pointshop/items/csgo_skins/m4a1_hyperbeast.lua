@@ -1,4 +1,4 @@
-ITEM.Name = "M4A1| Hyperbeast"
+ITEM.Name = "M4A1 | Hyperbeast"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a1.mdl"
 ITEM.Except = true

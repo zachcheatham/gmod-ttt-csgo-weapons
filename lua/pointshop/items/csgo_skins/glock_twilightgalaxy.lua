@@ -1,4 +1,4 @@
-ITEM.Name = "Glock| Twilight Galaxy"
+ITEM.Name = "Glock | Twilight Galaxy"
 ITEM.Price = 10000
 ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
