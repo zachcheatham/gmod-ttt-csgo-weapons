@@ -17,8 +17,8 @@ SWEP.Kind                       = WEAPON_HEAVY
 SWEP.Primary.Ammo               = "Buckshot"
 SWEP.Primary.Damage             = 8
 SWEP.Primary.Cone               = 0.085
-SWEP.Primary.Delay              = 0.5
-SWEP.Primary.ClipSize           = 7
+SWEP.Primary.Delay              = 1.2
+SWEP.Primary.ClipSize           = 5
 SWEP.Primary.ClipMax            = 24
 SWEP.Primary.DefaultClip        = 7
 SWEP.Primary.Automatic          = false
@@ -100,7 +100,7 @@ function SWEP:StartReload()
     if SERVER then
         local shells = self.Primary.ClipSize - self.Weapon:Clip1()
         
-        timer.Create("ShotgunReload_" ..  self.Owner:UserID(), 0.5, shells + 1, function()
+        timer.Create("ShotgunReload_" ..  self.Owner:UserID(), 0.6, shells + 1, function()
             if not self.dt.reloading then return end
         
             if IsValid(self) and IsValid(self.Weapon) and IsValid(self.Owner) then
