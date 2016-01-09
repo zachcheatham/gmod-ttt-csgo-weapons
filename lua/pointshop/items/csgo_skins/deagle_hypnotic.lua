@@ -1,5 +1,5 @@
 ITEM.Name = "Deagle | Hypnotic"
-ITEM.Price = 10000
+ITEM.Price = 1196
 ITEM.Model = "models/weapons/tfa_csgo/w_deagle.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

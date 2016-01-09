@@ -1,5 +1,5 @@
 ITEM.Name = "Deagle | Pilot"
-ITEM.Price = 10000
+ITEM.Price = 1028
 ITEM.Model = "models/weapons/tfa_csgo/w_deagle.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

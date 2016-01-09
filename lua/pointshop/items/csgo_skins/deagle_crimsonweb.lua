@@ -1,5 +1,5 @@
 ITEM.Name = "Deagle | Crimsonweb"
-ITEM.Price = 10000
+ITEM.Price = 8798
 ITEM.Model = "models/weapons/tfa_csgo/w_deagle.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
