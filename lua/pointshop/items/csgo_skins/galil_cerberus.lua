@@ -1,5 +1,5 @@
 ITEM.Name = "Galil | Cerberus"
-ITEM.Price = 10000
+ITEM.Price = 817
 ITEM.Model = "models/weapons/tfa_csgo/w_galil.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
