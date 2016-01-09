@@ -1,5 +1,5 @@
 ITEM.Name = "AK47 | Redline"
-ITEM.Price = 10000
+ITEM.Price = 1866
 ITEM.Model = "models/weapons/tfa_csgo/w_ak47.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

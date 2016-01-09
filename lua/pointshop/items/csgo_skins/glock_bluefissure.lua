@@ -1,5 +1,5 @@
 ITEM.Name = "Glock | Blue Fissure"
-ITEM.Price = 10000
+ITEM.Price = 4126
 ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

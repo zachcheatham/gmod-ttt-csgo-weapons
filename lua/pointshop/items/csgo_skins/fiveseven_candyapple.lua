@@ -1,5 +1,5 @@
 ITEM.Name = "Five-Seven | Candy Apple"
-ITEM.Price = 10000
+ITEM.Price = 870
 ITEM.Model = "models/weapons/tfa_csgo/w_fiveseven.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

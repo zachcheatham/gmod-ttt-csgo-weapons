@@ -1,5 +1,5 @@
 ITEM.Name = "M249 | Nebula Crusader"
-ITEM.Price = 10000
+ITEM.Price = 716
 ITEM.Model = "models/weapons/tfa_csgo/w_m249.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

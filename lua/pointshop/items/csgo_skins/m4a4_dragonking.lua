@@ -1,5 +1,5 @@
 ITEM.Name = "M4A4 | 龍王"
-ITEM.Price = 10000
+ITEM.Price = 2470
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a4.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

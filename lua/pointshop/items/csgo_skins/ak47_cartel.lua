@@ -1,5 +1,5 @@
 ITEM.Name = "AK47 | Cartel"
-ITEM.Price = 10000
+ITEM.Price = 2189
 ITEM.Model = "models/weapons/tfa_csgo/w_ak47.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

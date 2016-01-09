@@ -1,5 +1,5 @@
 ITEM.Name = "M4A1 | Atomic Alloy"
-ITEM.Price = 10000
+ITEM.Price = 1191
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a1.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

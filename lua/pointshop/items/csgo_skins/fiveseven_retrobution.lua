@@ -1,5 +1,5 @@
 ITEM.Name = "Five-Seven | Retrobution"
-ITEM.Price = 10000
+ITEM.Price = 1157
 ITEM.Model = "models/weapons/tfa_csgo/w_fiveseven.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

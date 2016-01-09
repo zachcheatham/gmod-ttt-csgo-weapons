@@ -1,5 +1,5 @@
 ITEM.Name = "Galil | Eco"
-ITEM.Price = 10000
+ITEM.Price = 415
 ITEM.Model = "models/weapons/tfa_csgo/w_galil.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

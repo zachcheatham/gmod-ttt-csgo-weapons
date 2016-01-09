@@ -1,5 +1,5 @@
 ITEM.Name = "MAC-10 | Rangeen"
-ITEM.Price = 10000
+ITEM.Price = 750
 ITEM.Model = "models/weapons/tfa_csgo/w_mac10.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
