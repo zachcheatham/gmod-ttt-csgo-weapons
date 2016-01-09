@@ -1,5 +1,5 @@
 ITEM.Name = "Glock | Candy Apple"
-ITEM.Price = 10000
+ITEM.Price = 2000
 ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

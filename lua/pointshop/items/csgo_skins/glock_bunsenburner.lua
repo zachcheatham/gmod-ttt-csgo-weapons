@@ -1,5 +1,5 @@
 ITEM.Name = "Glock | Bunsen Burner"
-ITEM.Price = 10000
+ITEM.Price = 200
 ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

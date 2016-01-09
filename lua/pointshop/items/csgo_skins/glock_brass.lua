@@ -1,5 +1,5 @@
 ITEM.Name = "Glock | Brass"
-ITEM.Price = 10000
+ITEM.Price = 156
 ITEM.Model = "models/weapons/tfa_csgo/w_glock18.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
