@@ -1,5 +1,5 @@
 ITEM.Name = "Five-Seven | Orange Peel"
-ITEM.Price = 10000
+ITEM.Price = 100
 ITEM.Model = "models/weapons/tfa_csgo/w_fiveseven.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

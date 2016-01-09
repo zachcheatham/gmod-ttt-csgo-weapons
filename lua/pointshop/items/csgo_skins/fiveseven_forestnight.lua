@@ -1,5 +1,5 @@
 ITEM.Name = "Five-Seven | Forest Night"
-ITEM.Price = 10000
+ITEM.Price = 75
 ITEM.Model = "models/weapons/tfa_csgo/w_fiveseven.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

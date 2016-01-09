@@ -1,5 +1,5 @@
 ITEM.Name = "Five-Seven | Neon Kimono"
-ITEM.Price = 10000
+ITEM.Price = 2005
 ITEM.Model = "models/weapons/tfa_csgo/w_fiveseven.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
