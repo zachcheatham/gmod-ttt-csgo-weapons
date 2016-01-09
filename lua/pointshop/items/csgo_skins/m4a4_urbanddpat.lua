@@ -1,5 +1,5 @@
 ITEM.Name = "M4A4 | Urban DDPAT"
-ITEM.Price = 10000
+ITEM.Price = 24
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a4.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false

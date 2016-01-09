@@ -1,5 +1,5 @@
 ITEM.Name = "M4A4 | Jungle Tiger"
-ITEM.Price = 10000
+ITEM.Price = 99
 ITEM.Model = "models/weapons/tfa_csgo/w_m4a4.mdl"
 ITEM.Except = true
 ITEM.DelayedEquip = false
