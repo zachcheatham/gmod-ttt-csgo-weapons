@@ -16,7 +16,7 @@ SWEP.Kind                       = WEAPON_HEAVY
 
 SWEP.Primary.Ammo               = "Buckshot"
 SWEP.Primary.Damage             = 8
-SWEP.Primary.Cone               = 0.085
+SWEP.Primary.Cone               = 0.08
 SWEP.Primary.Delay              = 1
 SWEP.Primary.ClipSize           = 5
 SWEP.Primary.ClipMax            = 24
