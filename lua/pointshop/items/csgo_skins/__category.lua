@@ -14,5 +14,6 @@ CATEGORY.SubcategoryOrder = {
     "M249",
     "M4A1-S",
     "M4A4",
-    "MAC-10"
+    "MAC-10",
+	"Famas"
 }
