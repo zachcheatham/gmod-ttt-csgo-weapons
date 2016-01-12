@@ -6,7 +6,7 @@ if CLIENT then
 	 SWEP.PrintName		 	= "Famas"
 	 SWEP.Slot				= 2
 
-	 SWEP.Icon				= ""
+	 SWEP.Icon				= "vgui/ttt/icon_csgo_famas"
 end
 
 SWEP.Base				 	= "weapon_ttt_csgo_base"
