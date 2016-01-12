@@ -584,49 +584,6 @@ sound.Add({
     sound =             "weapons/tfa_csgo/fiveseven/fiveseven_draw.wav"
 })
 
---MP5
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.1",
-	channel = 		CHAN_USER_BASE+10,
-	volume = 		1.0,
-	sound = 			{ "weapons/tfa_csgo/mp5/mp5-1.wav", "weapons/tfa_csgo/mp5/mp5-2.wav", "weapons/tfa_csgo/mp5/mp5-3.wav" }
-})
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.Clipout",
-	channel = 		CHAN_USER_BASE+11,
-	volume = 		1.0,
-	sound = 			"weapons/tfa_csgo/mp7/mp7_clipout.wav"
-})
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.Clipin",
-	channel = 		CHAN_USER_BASE+11,
-	volume = 		1.0,
-	sound = 			"weapons/tfa_csgo/mp7/mp7_clipin.wav"
-})
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.Slideback",
-	channel = 		CHAN_USER_BASE+11,
-	volume = 		1.0,
-	sound = 			"weapons/tfa_csgo/mp7/mp7_slideback.wav"
-})
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.SlideForward",
-	channel = 		CHAN_USER_BASE+11,
-	volume = 		1.0,
-	sound = 			"weapons/tfa_csgo/mp7/mp7_slideforward.wav"
-})
-
-sound.Add({
-	name = 			"TFA_CSGO_MP5.Draw",
-	channel = 		CHAN_USER_BASE+11,
-	volume = 		1.0,
-	sound = 			"weapons/tfa_csgo/mp7/mp7_draw.wav"
-})
 
 --GALIL
 
@@ -670,4 +627,55 @@ sound.Add({
 	channel = 		CHAN_USER_BASE+11,
 	volume = 		1.0,
 	sound = 			"weapons/tfa_csgo/galil/galil_draw.wav"
+})
+
+--Famas
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.1",
+	channel = 		CHAN_USER_BASE+10,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas-1.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.Clipout",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_clipout.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.Clipin",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_clipin.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.Cliphit",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_cliphit.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.BoltBack",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_boltback.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.BoltForward",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_boltforward.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_FAMAS.Draw",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/famas/famas_draw.wav"
 })
