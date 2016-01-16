@@ -1,50 +1,48 @@
 AddCSLuaFile()
 
-SWEP.HoldType                = "ar2"
+SWEP.HoldType               = "ar2"
 
 if CLIENT then
-    SWEP.PrintName            = "AK-47"
-    SWEP.Slot                = 6
+    SWEP.PrintName          = "AK-47"
+    SWEP.Slot               = 6
 
-    SWEP.Icon                 = "vgui/ttt/icon_csgo_ak47"
+    SWEP.Icon               = "vgui/ttt/icon_csgo_ak47"
 
     SWEP.EquipMenuData = {
-        type                 = "Weapon",
-        desc                 = "A powerful assault rifle with a large recoil."
+        type                = "Weapon",
+        desc                = "A powerful assault rifle with a large recoil."
     }
 end
 
-SWEP.Base                    = "weapon_ttt_csgo_base"
-SWEP.Spawnable                 = true
-SWEP.Kind                     = WEAPON_EQUIP
+SWEP.Base                   = "weapon_ttt_csgo_base"
+SWEP.Spawnable              = true
+SWEP.Kind                   = WEAPON_EQUIP
 SWEP.CanBuy                 = {ROLE_TRAITOR}
-SWEP.LimitedStock             = true
-SWEP.AutoSpawnable             = false
-SWEP.AllowDrop                 = true
+SWEP.LimitedStock           = true
+SWEP.AutoSpawnable          = false
+SWEP.AllowDrop              = true
 
-SWEP.Primary.Delay            = 0.10
-SWEP.Primary.Recoil            = 1.6
-SWEP.Primary.Automatic         = true
-SWEP.Primary.Ammo             = "smg1"
-SWEP.Primary.Damage            = 27
-SWEP.Primary.Cone             = 0.018
-SWEP.Primary.ClipSize        = 20
+SWEP.Primary.Delay          = 0.10
+SWEP.Primary.Recoil         = 1.9
+SWEP.Primary.Automatic      = true
+SWEP.Primary.Ammo           = "smg1"
+SWEP.Primary.Damage         = 21
+SWEP.Primary.Cone           = 0.025
+SWEP.Primary.ClipSize       = 20
 SWEP.Primary.ClipMax        = 60
 SWEP.Primary.DefaultClip    = 20
 SWEP.AmmoEnt                = "item_ammo_smg1_ttt"
 
-SWEP.HeadshotMultiplier     = 2
+SWEP.UseHands               = true
+SWEP.ViewModelFlip          = false
+SWEP.ViewModelFOV           = 64
+SWEP.ViewModel              = "models/weapons/tfa_csgo/c_ak47.mdl"
+SWEP.WorldModel             = "models/weapons/tfa_csgo/w_ak47.mdl"
 
-SWEP.UseHands                = true
-SWEP.ViewModelFlip            = false
-SWEP.ViewModelFOV            = 64
-SWEP.ViewModel                = "models/weapons/tfa_csgo/c_ak47.mdl"
-SWEP.WorldModel                = "models/weapons/tfa_csgo/w_ak47.mdl"
+SWEP.Primary.Sound          = Sound("TFA_CSGO_AK47.1")
 
-SWEP.Primary.Sound            = Sound("TFA_CSGO_AK47.1")
-
-SWEP.IronSightsPos = Vector(-7.58, -9.2, 0.55)
-SWEP.IronSightsAng = Vector(2.599, -1.3, -3.6)
+SWEP.IronSightsPos          = Vector(-7.58, -9.2, 0.55)
+SWEP.IronSightsAng          = Vector(2.599, -1.3, -3.6)
 
 SWEP.Offset = {
     Pos = {
