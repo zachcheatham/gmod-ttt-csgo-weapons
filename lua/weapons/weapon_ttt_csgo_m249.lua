@@ -15,10 +15,10 @@ SWEP.Spawnable              = true
 SWEP.Kind                   = WEAPON_HEAVY
 
 SWEP.Primary.Ammo           = "AirboatGun"
-SWEP.Primary.Recoil         = 1.8
+SWEP.Primary.Recoil         = 1.6
 SWEP.Primary.Damage         = 8
 SWEP.Primary.Delay          = 0.09
-SWEP.Primary.Cone           = 0.04
+SWEP.Primary.Cone           = 0.035
 SWEP.Primary.ClipSize       = 150
 SWEP.Primary.ClipMax        = 150
 SWEP.Primary.DefaultClip    = 150

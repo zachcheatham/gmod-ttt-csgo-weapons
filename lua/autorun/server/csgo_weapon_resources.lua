@@ -30,6 +30,7 @@ addContentFolder("materials/models/tfa_csgo/ssg08")
 addContentFolder("materials/models/tfa_csgo/ump45")
 addContentFolder("materials/models/tfa_csgo/usp")
 addContentFolder("materials/models/tfa_csgo/famas")
+addContentFolder("materials/models/tfa_csgo/revolver")
 
 resource.AddFile("materials/vgui/ttt/icon_csgo_ak47.vmt")
 resource.AddFile("materials/vgui/ttt/icon_csgo_flash.vmt")
