@@ -13,7 +13,7 @@ if CLIENT then
 end
 
 SWEP.Base                   = "weapon_ttt_csgo_base_grenade"
-SWEP.Kind                   = WEAPON_EQUIP
+SWEP.Kind                   = WEAPON_EQUIP2
 SWEP.CanBuy                 = {ROLE_TRAITOR}
 SWEP.AutoSpawnable          = false
 SWEP.AllowDrop              = true
