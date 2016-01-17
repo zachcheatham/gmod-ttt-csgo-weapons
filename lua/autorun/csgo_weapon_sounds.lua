@@ -679,3 +679,61 @@ sound.Add({
 	volume = 		1.0,
 	sound = 			"weapons/tfa_csgo/famas/famas_draw.wav"
 })
+
+--R8
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.1",
+	channel = 		CHAN_USER_BASE+10,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver-1_01.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Clipout",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_clipout.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Clipin",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_clipin.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Sideback",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_sideback.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Siderelease",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_siderelease.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Prepare",
+	channel = 		CHAN_USER_BASE+12,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_prepare.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Hammer",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_hammer.wav"
+})
+
+sound.Add({
+	name = 			"TFA_CSGO_REVOLVER.Draw",
+	channel = 		CHAN_USER_BASE+11,
+	volume = 		1.0,
+	sound = 			"weapons/tfa_csgo/revolver/revolver_draw.wav"
+})
