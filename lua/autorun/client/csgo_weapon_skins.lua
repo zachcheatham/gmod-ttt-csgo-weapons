@@ -26,7 +26,7 @@ local check_files = {
     "materials/models/tfa_csgo/lc_skins/m4a1/m4a1s_atomicalloy.vmt",
     "materials/models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_asiimov.vmt",
     "materials/models/tfa_csgo/cringecity_reskinpack_mac10/mac_amberfade.vmt",
-    "materials/models/tfa_csgo/cringecity_reskinpack_famas/famas_afterimage.vmt"
+    "materials/models/tfa_csgo/cringecity_reskinpack_famas/famas_afterimage.vmt",
 	"materials/models/tfa_csgo/cringecity_reskinpack_r8/r8_crimsonweb.vmt"
 }
 
