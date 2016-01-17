@@ -4,25 +4,25 @@ AddCSLuaFile()
 SWEP.HoldType               = "pistol"
 
 if CLIENT then
-   SWEP.PrintName           = "Revolver"            
+    SWEP.PrintName           = "Revolver"            
 
-   SWEP.Slot                = 6
+    SWEP.Slot                = 6
    	
 	SWEP.EquipMenuData = {
-		type = "item_weapon",
-		desc = "Detective's Best Friend - High Accuracy"
-    	};
+	    type = "item_weapon",
+        desc = "Detective's Best Friend - High Accuracy"
+    };
 
-   SWEP.Icon                = ""
+   SWEP.Icon                = "icon_csgo_revolver"
 end
 
 SWEP.Base                   = "weapon_ttt_csgo_base"
 
 SWEP.Spawnable              = true
-SWEP.Kind                   = WEAPON_PISTOL
-SWEP.CanBuy					= {ROLE_DETECTIVE}
-SWEP.AutoSpawnable			= false
-SWEP.LimitedStock = true
+SWEP.Kind                   = WEAPON_EQUIP
+SWEP.CanBuy					        = {ROLE_DETECTIVE}
+SWEP.AutoSpawnable			    = false
+SWEP.LimitedStock           = true
 
 SWEP.Primary.Ammo           = "AirboatGun"
 SWEP.Primary.Recoil         = 1
@@ -36,7 +36,6 @@ SWEP.Primary.Automatic      = false
 
 SWEP.HeadshotMultiplier     = 2
 
-SWEP.AutoSpawnable          = true
 SWEP.AmmoEnt                = "item_ammo_revolver_ttt"
 SWEP.Primary.Sound          = Sound("TFA_CSGO_REVOLVER.1")
 
