@@ -16,4 +16,5 @@ CATEGORY.SubcategoryOrder = {
     "M4A4",
     "MAC-10",
 	"Famas"
+	"Revolver"
 }
