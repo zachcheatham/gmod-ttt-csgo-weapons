@@ -1,22 +1,25 @@
-net.Receive("ApplyViewmodelCSGOSkin", function()
-    local material = net.ReadString()
-    
-    if IsValid(LocalPlayer()) then
-        --chat.AddText("[CS:GO Debug] Apply \"" .. material .. "\" to viewmodel.")
-        LocalPlayer():GetViewModel():SetMaterial(material)
-    end
-end)
+-- Viewmodel skinning
 
-net.Receive("ClearViewmodelCSGOSkin", function()
-    local material = net.ReadString()
-    
-    if IsValid(LocalPlayer()) then
-        --chat.AddText("[CS:GO Debug] Clear viewmodel material.")
-        LocalPlayer():GetViewModel():SetMaterial()
-    end
-end)
+local previousWeapon = nil
+local function postDrawViewModel(viewModel, ply, weapon)
+    if weapon ~= previousWeapon then
+        previousWeapon = weapon
 
-local check_files = {
+        if weapon.GetCSGOSkin then
+            local skinID = weapon:GetCSGOSkin()
+            ApplyCSGOSkin(LocalPlayer():GetViewModel(), skinID)
+        else
+            LocalPlayer():GetViewModel():SetMaterial() -- Clear the skin
+        end
+    end
+end
+-- I really don't like using hooks that get called constantly, but there's no client-side weapon switch hook.
+-- Not sure if Think would be more efficient.
+hook.Add("PostDrawViewModel", "CSGOWeaponSkins_ViewModelSkin", postDrawViewModel)
+
+-- Addon Checks
+
+local checkFiles = {
     "materials/models/tfa_csgo/cringecity_reskinpack_ak47/ak47_cartel.vmt",
     "materials/models/tfa_csgo/cringecity_reskinpack_deagle/deagle_blaze.vmt",
     "materials/models/tfa_csgo/lc_skins/fiveseven/fiveseven_banana.vmt",
@@ -31,13 +34,12 @@ local check_files = {
 }
 
 local function displayCollectionDialog()
-    chat.AddText("It appears you haven't downloaded our optional weapon skins. Type !skins to open the Workshop collection.")
+    chat.AddText("It appears you haven't downloaded all of our optional weapon skins. Type !skins to open the Workshop collection.")
 end
 
 local function playerReady()
-    for _, f in ipairs(check_files) do
+    for _, f in ipairs(checkFiles) do
         if not file.Exists(f, "GAME") then
-            print (f)
             displayCollectionDialog()
             return
         end

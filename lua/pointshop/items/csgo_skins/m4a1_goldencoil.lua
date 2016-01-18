@@ -14,7 +14,7 @@ function ITEM:OnEquip(ply, modifications)
         ply.csgoSkins = {}
     end
 
-    ply.csgoSkins[self.WeaponEntity] = self.CSGOSkin
+    ply.csgoSkins[self.WeaponEntity] = self.ID
 end
 
 function ITEM:OnHolster(ply)
@@ -26,7 +26,7 @@ end
 -- This /should/ only get called for modifying the preview
 function ITEM:ModifyClientsideModel(ply, ent, pos, ang)
     if not ent.csgoSkinApplied then
-        ent:SetMaterial(self.CSGOSkin)
+        ApplyCSGOSkin(ent, self.ID)
         ent.csgoSkinApplied = true
     end
 end

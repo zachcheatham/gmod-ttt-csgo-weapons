@@ -1,5 +1,7 @@
 DEFINE_BASECLASS("weapon_tttbase")
 
+-- Attach to the player's arm
+-- TODO: There's probably a better way to do this
 function SWEP:DrawWorldModel()
     if CLIENT and !game.SinglePlayer() then
         local hand, offset, rotate
@@ -33,4 +35,14 @@ function SWEP:Initialize()
     -- So the first BaseClass is this file. The second is TTT.
     -- You will see BaseClass.BaseClass a lot because of this!
     self.BaseClass.BaseClass.Initialize(self)
+end
+
+function SWEP:SetupDataTables()
+    self.BaseClass.BaseClass.SetupDataTables(self)
+
+    self:NetworkVar("String", 3, "CSGOSkin")
+
+    if SERVER then
+        self:NetworkVarNotify("CSGOSkin", self.OnCSGOSkinChanged)
+    end
 end
