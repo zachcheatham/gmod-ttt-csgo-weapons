@@ -6,20 +6,20 @@ ITEM.DelayedEquip = false
 
 ITEM.SubCategory = "M4A4"
 
-ITEM.WeaponEntity = "weapon_ttt_csgo_m4a4"
-ITEM.CSGOSkin = "models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_bulletrain"
+ITEM.CSGOSkinEntity = "weapon_ttt_csgo_m4a4"
+ITEM.CSGOSkinMaterial = "models/tfa_csgo/cringecity_reskinpack_m4a4/m4a4_bulletrain"
 
 function ITEM:OnEquip(ply, modifications)
     if not ply.csgoSkins then
         ply.csgoSkins = {}
     end
 
-    ply.csgoSkins[self.WeaponEntity] = self.ID
+    ply.csgoSkins[self.CSGOSkinEntity] = self.ID
 end
 
 function ITEM:OnHolster(ply)
     if ply.csgoSkins then
-        ply.csgoSkins[self.WeaponEntity] = nil
+        ply.csgoSkins[self.CSGOSkinEntity] = nil
     end
 end
 
