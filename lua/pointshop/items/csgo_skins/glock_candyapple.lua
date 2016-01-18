@@ -8,6 +8,7 @@ ITEM.SubCategory = "Glock 18"
 
 ITEM.CSGOSkinEntity = "weapon_ttt_csgo_glock18"
 ITEM.CSGOSkinMaterial = "models/tfa_csgo/cringecity_reskinpack_glock/glock_candyapple"
+ITEM.CSGOSkinColor = Vector(0.41568627451, 0.07843137254, 0.09019607843)
 
 function ITEM:OnEquip(ply, modifications)
     if not ply.csgoSkins then

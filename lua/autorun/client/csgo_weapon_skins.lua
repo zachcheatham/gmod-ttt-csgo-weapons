@@ -17,6 +17,17 @@ end
 -- Not sure if Think would be more efficient.
 hook.Add("PostDrawViewModel", "CSGOWeaponSkins_ViewModelSkin", postDrawViewModel)
 
+-- Fix skin material colors
+local function initPostEntity()
+    for _, item in pairs(PS.Items) do
+        if item.CSGOSkinColor then
+            Material(item.CSGOSkinMaterial):SetVector("$color2", item.CSGOSkinColor)
+        end
+    end
+end
+hook.Add("InitPostEntity", "CSGOWeaponSkins_MaterialColors", initPostEntity)
+initPostEntity()
+
 -- Addon Checks
 
 local checkFiles = {

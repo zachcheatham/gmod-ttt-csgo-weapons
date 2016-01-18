@@ -8,7 +8,7 @@ ITEM.SubCategory = "AK-47"
 
 ITEM.CSGOSkinEntity = "weapon_ttt_csgo_ak47"
 ITEM.CSGOSkinMaterial = "models/tfa_csgo/cringecity_reskinpack_ak47/ak47_redline"
-ITEM.CSGOSkinColor = Color(138,31,21)
+ITEM.CSGOSkinColor = Vector(4.90000, 0.338462, 0.353846)
 
 function ITEM:OnEquip(ply, modifications)
     if not ply.csgoSkins then
