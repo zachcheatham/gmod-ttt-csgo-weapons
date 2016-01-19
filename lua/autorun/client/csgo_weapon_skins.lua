@@ -1,4 +1,6 @@
+-----------------------
 -- Viewmodel skinning
+-----------------------
 
 local previousWeapon = nil
 local function postDrawViewModel(viewModel, ply, weapon)
@@ -19,7 +21,11 @@ hook.Add("PostDrawViewModel", "CSGOWeaponSkins_ViewModelSkin", postDrawViewModel
 
 -- Called when the server has changed the skin in our hand
 net.Receive("CSGOWeaponSkins_UpdateViewModelSkin", function(len)
-    previousWeapon = nil
+    -- We have to add a slight delay because sometimes the network var for the weapon
+    -- skin comes in after this network message does
+    timer.Simple(0.1, function()
+        previousWeapon = nil
+    end)
 end)
 
 -- Fix skin material colors
@@ -33,7 +39,9 @@ end
 hook.Add("InitPostEntity", "CSGOWeaponSkins_MaterialColors", initPostEntity)
 initPostEntity()
 
+-----------------
 -- Addon Checks
+-----------------
 
 local checkFiles = {
     "materials/models/tfa_csgo/cringecity_reskinpack_ak47/ak47_cartel.vmt",
