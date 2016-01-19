@@ -17,6 +17,11 @@ end
 -- Not sure if Think would be more efficient.
 hook.Add("PostDrawViewModel", "CSGOWeaponSkins_ViewModelSkin", postDrawViewModel)
 
+-- Called when the server has changed the skin in our hand
+net.Receive("CSGOWeaponSkins_UpdateViewModelSkin", function(len)
+    previousWeapon = nil
+end)
+
 -- Fix skin material colors
 local function initPostEntity()
     for _, item in pairs(PS.Items) do

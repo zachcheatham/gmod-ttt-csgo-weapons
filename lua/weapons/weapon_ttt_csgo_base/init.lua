@@ -17,4 +17,12 @@ end
 
 function SWEP:OnCSGOSkinChanged(name, old, new)
     ApplyCSGOSkin(self, new)
+
+    -- If the viewmodel is visible, tell the client to refresh its skin
+    if self:IsWeaponVisible() then
+        net.Start("CSGOWeaponSkins_UpdateViewModelSkin")
+        net.Send(self:GetOwner())
+    end
+
+    -- TODO: Update all the people spectating?
 end

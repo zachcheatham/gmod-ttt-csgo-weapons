@@ -1,0 +1,1 @@
+util.AddNetworkString("CSGOWeaponSkins_UpdateViewModelSkin")
