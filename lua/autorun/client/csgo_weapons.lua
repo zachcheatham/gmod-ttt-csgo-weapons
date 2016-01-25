@@ -1,4 +1,28 @@
 -----------------------
+-- World model hacks --
+-----------------------
+
+-- Hook to call the draw code on all entities
+hook.Add("PrePlayerDraw", "CSGOWeapons_AttachWorldModel", function()
+    for _, ply in pairs(player.GetAll()) do
+        local wep = ply:GetActiveWeapon()
+        if IsValid(wep) and wep.PrePlayerDraw then
+            wep:PrePlayerDraw()
+        end
+    end
+end)
+
+-- There's no hook clientside when a weapon gets dropped, so the server lets us know when to reset things
+net.Receive("CSGOWeapons_ResetWeaponDraw", function()
+    local ent = net.ReadEntity()
+    if IsValid(ent) then
+        ent:SetRenderOrigin()
+        ent:SetRenderAngles()
+        ent:SetModelScale(1, 0)
+    end
+end)
+
+-----------------------
 -- Viewmodel skinning
 -----------------------
 

@@ -1,3 +1,4 @@
+util.AddNetworkString("CSGOWeapons_ResetWeaponDraw")
 util.AddNetworkString("CSGOWeaponSkins_UpdateViewModelSkin")
 
 local function postSpawnEquip(ply, delayed)
