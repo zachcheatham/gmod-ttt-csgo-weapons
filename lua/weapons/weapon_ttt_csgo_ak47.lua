@@ -25,12 +25,12 @@ SWEP.AllowDrop              = true
 SWEP.Primary.Delay          = 0.10
 SWEP.Primary.Recoil         = 1.9
 SWEP.Primary.Automatic      = true
-SWEP.Primary.Ammo           = "smg1"
+SWEP.Primary.Ammo           = "AirboatGun"
 SWEP.Primary.Damage         = 21
 SWEP.Primary.Cone           = 0.025
 SWEP.Primary.ClipSize       = 20
 SWEP.Primary.ClipMax        = 60
-SWEP.Primary.DefaultClip    = 20
+SWEP.Primary.DefaultClip    = 30
 SWEP.AmmoEnt                = "item_ammo_smg1_ttt"
 
 SWEP.UseHands               = true
