@@ -17,5 +17,6 @@ CATEGORY.SubcategoryOrder = {
     "MAC-10",
     "Famas",
     "Revolver",
-	"Nova"
+	"Nova",
+	"P90"
 }
