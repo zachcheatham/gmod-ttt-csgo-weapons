@@ -38,6 +38,8 @@ SWEP.AmmoEnt                = "item_ammo_pistol_ttt"
 SWEP.Primary.Sound          = Sound("TFA_CSGO_USP.1")
 SWEP.Primary.SoundLevel     = 50
 
+SWEP.HeadshotMultiplier		= 3
+
 SWEP.UseHands               = true
 SWEP.ViewModelFlip          = false
 SWEP.ViewModelFOV           = 56
