@@ -2,14 +2,6 @@ AddCSLuaFile("shared.lua")
 
 include("shared.lua")
 
-function SWEP:OnDrop()
-    self.BaseClass.BaseClass.OnDrop(self)
-
-    net.Start("CSGOWeapons_ResetWeaponDraw")
-    net.WriteEntity(self)
-    net.Broadcast()
-end
-
 function SWEP:Equip(newOwner)
     self.BaseClass.BaseClass.Equip(self, newOwner)
 
