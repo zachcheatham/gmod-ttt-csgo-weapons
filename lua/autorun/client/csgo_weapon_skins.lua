@@ -8,8 +8,12 @@ local function postDrawViewModel(viewModel, ply, weapon)
         previousWeapon = weapon
 
         if weapon.GetCSGOSkin then
-            local skinID = weapon:GetCSGOSkin()
-            ApplyCSGOSkin(LocalPlayer():GetViewModel(), skinID)
+            local vm = LocalPlayer():GetViewModel()
+
+            if IsValid(vm) then
+                local skinID = weapon:GetCSGOSkin()
+                ApplyCSGOSkin(vm, skinID)
+            end
         else
             LocalPlayer():GetViewModel():SetMaterial() -- Clear the skin
         end
