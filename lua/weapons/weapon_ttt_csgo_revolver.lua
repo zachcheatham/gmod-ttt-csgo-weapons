@@ -27,14 +27,14 @@ SWEP.LimitedStock           = true
 SWEP.Primary.Ammo           = "AirboatGun"
 SWEP.Primary.Recoil         = 1
 SWEP.Primary.Damage         = 25
-SWEP.Primary.Delay          = 0.6
+SWEP.Primary.Delay          = 0.5
 SWEP.Primary.Cone           = 0.001
 SWEP.Primary.ClipSize       = 8
 SWEP.Primary.ClipMax        = 32
 SWEP.Primary.DefaultClip    = 24
 SWEP.Primary.Automatic      = false
 
-SWEP.HeadshotMultiplier     = 2
+SWEP.HeadshotMultiplier     = 3
 
 SWEP.AmmoEnt                = "item_ammo_revolver_ttt"
 SWEP.Primary.Sound          = Sound("TFA_CSGO_REVOLVER.1")
