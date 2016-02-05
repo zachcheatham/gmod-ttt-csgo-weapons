@@ -10,7 +10,7 @@ local function addContentFolder(path)
     end
 end
 
-addContentFolder("models/weapons/tfa_csgo")
+--[[addContentFolder("models/weapons/tfa_csgo")
 addContentFolder("sound/weapons/tfa_csgo")
 addContentFolder("materials/models/tfa_csgo/ak47")
 addContentFolder("materials/models/tfa_csgo/deagle")
@@ -38,4 +38,4 @@ resource.AddFile("materials/vgui/ttt/icon_csgo_frag.vmt")
 resource.AddFile("materials/vgui/ttt/icon_csgo_galil.vmt")
 resource.AddFile("materials/vgui/ttt/icon_csgo_nova.vmt")
 resource.AddFile("materials/vgui/ttt/icon_csgo_p90.vmt")
-resource.AddFile("materials/vgui/ttt/icon_csgo_famas.vmt")
+resource.AddFile("materials/vgui/ttt/icon_csgo_famas.vmt")]]--
