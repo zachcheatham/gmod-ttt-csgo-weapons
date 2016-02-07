@@ -18,5 +18,6 @@ CATEGORY.SubcategoryOrder = {
     "Famas",
     "Revolver",
 	"Nova",
-	"P90"
+	"P90",
+	"Scout"
 }
