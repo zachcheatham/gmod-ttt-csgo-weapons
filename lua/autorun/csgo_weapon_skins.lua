@@ -3,18 +3,21 @@ function ApplyCSGOSkin(entity, skinID)
         local psData = PS.Items[skinID]
         if psData then
             if type(psData.CSGOSkinMaterial) == "table" then
+                entity:SetMaterial() -- Clear the material
                 for index, material in pairs(psData.CSGOSkinMaterial) do
-                    entity:SetSubMaterial(index, material)
+                    entity:SetSubMaterial(index - 1, material)
                 end
             else
+                entity:SetSubMaterial() -- Clear the submaterial
                 entity:SetMaterial(psData.CSGOSkinMaterial)
             end
-
             return
         else
             ErrorNoHalt("[CS:GO Skins] Warning: attempted to apply non-existant skin: " .. skinID .. "\n")
         end
     end
 
-    entity:SetMaterial() -- Clear the skin
+     -- Clear the skin
+    entity:SetMaterial()
+    entity:SetSubMaterial()
 end
