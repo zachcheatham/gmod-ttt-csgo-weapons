@@ -15,7 +15,9 @@ local function postDrawViewModel(viewModel, ply, weapon)
                 ApplyCSGOSkin(vm, skinID)
             end
         else
-            LocalPlayer():GetViewModel():SetMaterial() -- Clear the skin
+             -- Clear the skin
+            LocalPlayer():GetViewModel():SetMaterial()
+            LocalPlayer():GetViewModel():SetSubMaterial()
         end
     end
 end
